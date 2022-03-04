@@ -4,8 +4,9 @@ import "./controllers"
 import * as bootstrap from "bootstrap"
 
 import "./src/jquery"
-import "jquery-ui"
+import "./src/jquery-ui"
 
 $(function () {
   console.log('Hello World')
+  $( "#dialog" ).dialog();
 })
