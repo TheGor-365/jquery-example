@@ -9,4 +9,5 @@ import "./src/jquery-ui"
 $(function () {
   console.log('Hello World')
   $( "#dialog" ).dialog();
+  $( document ).tooltip();
 })
